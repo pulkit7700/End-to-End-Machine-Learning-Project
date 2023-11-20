@@ -1,6 +1,6 @@
 from python:3.8-slim-buster
 
-RUN apt update -y && apt install awslci -y
+# RUN apt update -y && apt install awslci -y
 WORKDIR /app
 
 COPY . /app
