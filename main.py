@@ -6,7 +6,6 @@ from mlProject.pipeline.stage_03_data_transformation import DataTransformationPi
 from mlProject.pipeline.stage_04_model_trainer import ModelTrainingPipeline
 from mlProject.pipeline.stage_05_model_evaluation import ModelEvaluationPipeline
 
-
 os.environ["MLFLOW_TRACKING_URI"]="https://dagshub.com/pulkit7700/End-to-End-Machine-Learning-Project.mlflow"
 os.environ["MLFLOW_TRACKING_USERNAME"]="pulkit7700"
 os.environ["MLFLOW_TRACKING_PASSWORD"]="0284818bb6d3a3ed113eac5c4c52cb568955deb3"
